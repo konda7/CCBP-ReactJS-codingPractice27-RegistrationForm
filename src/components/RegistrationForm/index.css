@@ -1,0 +1,110 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.registration-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #ea580c;
+}
+
+.registration-form {
+  width: 90%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .registration-form {
+    max-width: 500px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    padding: 60px 50px;
+    border-radius: 10px;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.label {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 5px;
+}
+
+.input-box {
+  border: 1px solid #cbd2d9;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #9aa5b1;
+  outline: none;
+}
+
+.blurInput {
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+}
+
+.error-msg {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ff0b37;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.submit-btn {
+  background-color: #ea580c;
+  border: 0;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  padding: 7px 15px;
+  align-self: stretch;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .submit-btn {
+    align-self: center;
+  }
+}
+
+.successful-submit-container {
+  width: 90%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .successful-submit-container {
+    max-width: 500px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    padding: 60px 50px;
+    border-radius: 10px;
+  }
+}
+
+.sucessfull-description {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+}
